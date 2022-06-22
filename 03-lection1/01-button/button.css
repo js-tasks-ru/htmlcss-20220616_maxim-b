@@ -14,12 +14,12 @@
 }
 
 .button_primary {
-    background: #4263EB;
+    background: var(--button-primary);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button_primary:hover {
-    background: #2342C0;
+    background: var(--button-primary-hover);
     cursor: pointer;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .button_secondary:hover {
-    background: #5028C6;
+    background: var(--button-secondary-hover);
     cursor: pointer;
 }
 
