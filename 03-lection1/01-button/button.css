@@ -17,6 +17,12 @@
     cursor: pointer;
 }
 
+.button:disabled {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+}
+
 .button_primary {
     background: var(--button-primary);
 }
@@ -25,42 +31,20 @@
     background: var(--button-primary-hover);
 }
 
-.button_primary:disabled {
-    opacity: 0.5;
-    cursor: default;
-    pointer-events: none;
-}
-
 .button_secondary {
     background: var(--purple);
-    padding: 15px 56px;
 }
 
 .button_secondary:hover {
     background: var(--button-secondary-hover);
-    cursor: pointer;
-}
-
-.button_secondary:disabled {
-    opacity: 0.5;
-    cursor: default;
-    pointer-events: none;
 }
 
 .button_alternate {
     background: none;
     border: 1px solid var(--grey-3);
     color: var(--black);
-    padding: 15px 61px;
 }
 
 .button_alternate:hover {
     border: 1px solid var(--black);
-    cursor: pointer;
-}
-
-.button_alternate:disabled {
-    opacity: 0.5;
-    cursor: default;
-    pointer-events: none;
 }
