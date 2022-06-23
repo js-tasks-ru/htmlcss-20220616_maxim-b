@@ -2,34 +2,38 @@
 
 
 .button {
-    width: 189px;
+    min-width: 189px;
     height: 48px;
     color: var(--white);
     border-radius: 8px;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     text-align: center;
     border: 0;
+    padding: 15px 65px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    cursor: pointer;
 }
 
 .button_primary {
     background: var(--button-primary);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button_primary:hover {
     background: var(--button-primary-hover);
-    cursor: pointer;
 }
 
 .button_primary:disabled {
     opacity: 0.5;
     cursor: default;
+    pointer-events: none;
 }
 
 .button_secondary {
     background: var(--purple);
+    padding: 15px 56px;
 }
 
 .button_secondary:hover {
@@ -40,12 +44,14 @@
 .button_secondary:disabled {
     opacity: 0.5;
     cursor: default;
+    pointer-events: none;
 }
 
 .button_alternate {
     background: none;
     border: 1px solid var(--grey-3);
     color: var(--black);
+    padding: 15px 61px;
 }
 
 .button_alternate:hover {
@@ -56,8 +62,5 @@
 .button_alternate:disabled {
     opacity: 0.5;
     cursor: default;
-}
-
-.button_alternate:disabled:hover {
-    border: 1px solid var(--grey-3);
+    pointer-events: none;
 }
