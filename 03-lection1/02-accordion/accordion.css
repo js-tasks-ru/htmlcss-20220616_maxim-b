@@ -1,7 +1,7 @@
 /* Стилизация аккордеона */
 
 /* Убираем стандартный маркер Chrome */
-.accordion__item summary::-webkit-details-marker {
+.accordion__summary::-webkit-details-marker {
     display: none
 }
 
