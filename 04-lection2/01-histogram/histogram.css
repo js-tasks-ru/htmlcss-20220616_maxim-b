@@ -39,10 +39,11 @@
     height: 50px;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: nowrap;
 }
 
 .histogram__chart-item {
     background: var(--button-primary);
-    width: 9px;
+    flex-basis: 9px;
     height: 100%;
 }
