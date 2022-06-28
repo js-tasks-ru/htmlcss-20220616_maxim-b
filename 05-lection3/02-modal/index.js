@@ -16,4 +16,5 @@
         modal.style.display = 'none';
         document.body.overflow = 'initial';
     });
+
 })();

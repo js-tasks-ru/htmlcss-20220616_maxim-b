@@ -22,9 +22,12 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --modal-title: #334D6E;
 }
 
 * {
     font-family: 'Inter', sans-serif;
 }
+
 
