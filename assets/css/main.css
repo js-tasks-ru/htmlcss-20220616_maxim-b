@@ -1,4 +1,5 @@
 @import '../fonts/fonts.css';
+@import "../../03-lection1/01-button/button.css";
 
 :root {
     --white: #ffffff;
@@ -25,9 +26,12 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --modal-title: #334D6E;
 }
 
 * {
     font-family: 'Inter', sans-serif;
 }
+
 
