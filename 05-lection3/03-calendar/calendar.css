@@ -42,7 +42,7 @@
     line-height: 20px;
     text-align: center;
     color: var(--calendar-title);
-    align-self: stretch;
+    align-items: center;
 }
 
 .calendar__item_day {
