@@ -27,6 +27,10 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 
+    --calendar-title: #334D6E;
+    --calendar-item-day: #90A0B7;
+    --calendar-item-between: #A0B1F5;
+
     --modal-title: #334D6E;
 }
 
