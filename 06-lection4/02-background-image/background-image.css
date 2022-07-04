@@ -1,9 +1,7 @@
 
-@media (min-width: 400px) {
-    body {
-        background: url("public/forest_400.jpg") top center no-repeat;
-        background-size: cover;
-    }
+body {
+    background: url("public/forest_400.jpg") top center no-repeat;
+    background-size: cover;
 }
 
 @media (min-width: 768px) {
