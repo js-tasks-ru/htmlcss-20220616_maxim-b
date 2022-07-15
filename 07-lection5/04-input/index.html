@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
-<html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
-            <label class="field">
-                <div class="field__label">Label</div>
-                <input class="field__input" type="text" placeholder="Placeholder" value="">
-            </label>
+<html lang='ru'>
+<head>
+  <link rel='stylesheet' href='../../assets/css/main.css'>
+  <link rel='stylesheet' href='./input.css'>
+</head>
+<body>
+<div class='field'>
+  <div class='field__label'>Label</div>
+  <div class='field_container'>
+    <input class='field__input' type='text' placeholder='Placeholder' value=''>
+  </div>
 
-            <br>
+</div>
 
-            <label class="field field_success">
-                <div class="field__label">Success</div>
-                <input class="field__input" type="text" placeholder="Placeholder" value="Success">
-            </label>
+<br>
 
-            <br>
+<div class='field field_success'>
+  <div class='field__label'>Success</div>
+  <div class='field__container'>
+    <input class='field__input' type='text' placeholder='Placeholder' value='Success'>
+  </div>
+</div>
 
-            <label class="field field_invalid">
-                <div class="field__label">Error</div>
-                <input class="field__input" type="text" placeholder="Placeholder" value="Error">
-            </label>
+<br>
 
-            <br>
+<div class='field field_invalid'>
+  <div class='field__label'>Error</div>
+  <div class='field__container'>
+    <input class='field__input' type='text' placeholder='Placeholder' value='Error'>
+  </div>
+</div>
 
-            <label class="field">
-                <div class="field__label">Disabled</div>
-                <input class="field__input" type="text" placeholder="Placeholder" value="Disabled" disabled="disabled">
-            </label>
+<br>
 
-    </body>
+<div class='field'>
+  <div class='field__label'>Disabled</div>
+  <div class='field__container'>
+    <input class='field__input' type='text' placeholder='Placeholder' value='Disabled' disabled='disabled'>
+  </div>
+</div>
+
+</body>
 </html>

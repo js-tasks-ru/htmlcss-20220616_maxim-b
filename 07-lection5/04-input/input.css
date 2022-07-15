@@ -30,6 +30,7 @@
     line-height: 26px;
     color: var(--grey-4);
     outline: none;
+    width: calc(100% - 24px);
 }
 
 .field__input::placeholder {
