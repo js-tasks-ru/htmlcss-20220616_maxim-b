@@ -5,6 +5,11 @@
     position: relative;
 }
 
+.field__container {
+    position: relative;
+    display: inline-flex;
+}
+
 .field__label {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -49,6 +54,7 @@
     width: 24px;
     height: 24px;
     top: 50%;
+    transform: translate(0, -50%);
     right: 16px;
 }
 
@@ -64,6 +70,7 @@
     width: 24px;
     height: 24px;
     top: 50%;
+    transform: translate(0, -50%);
     right: 16px;
 }
 
