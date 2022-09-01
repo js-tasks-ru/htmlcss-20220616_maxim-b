@@ -1,6 +1,7 @@
 .toggler {
     display: inline-flex;
     position: relative;
+    align-items: center;
 }
 
 .toggler__input {
@@ -12,6 +13,7 @@
     display: inline-flex;
     align-items: center;
     gap: 12px;
+    margin: 0 0.875rem;
 }
 
 .toggler__control {
