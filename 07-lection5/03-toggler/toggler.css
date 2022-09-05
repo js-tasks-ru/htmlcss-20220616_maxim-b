@@ -1,6 +1,7 @@
 .toggler {
     display: inline-flex;
     position: relative;
+    align-items: center;
 }
 
 .toggler__input {
