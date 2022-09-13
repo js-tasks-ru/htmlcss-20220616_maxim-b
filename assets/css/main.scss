@@ -1,0 +1,41 @@
+@import "reset";
+@import "normalize";
+@import '../fonts/fonts';
+@import "variables";
+@import "globals";
+@import "helpers";
+@import "grid";
+@import "../../components/button/button";
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+html[data-theme-dark] {
+    /*--white: #ffffff75;*/
+    $main-bg: $black;
+    $font-color: #ffffff75;
+    $dark-bg: $grey-1;
+    $white-bg: $black;
+    $light-bg: $grey-4;
+    $grey-bg: $grey-4;
+    $card-bg: $black;
+    $text-primary: $white;
+    $active-text-color: $grey-2;
+    $input-text-color: $font-color;
+}
+
+html[data-theme-dark] img {
+    filter: brightness(.8) contrast(1.2);
+}
+
+main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 100%;
+    background-color: $main-bg;
+    color: $font-color;
+}
